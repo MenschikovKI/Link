@@ -1,14 +1,8 @@
 import React from "react";
 
-// --- импортируем компоненты страницы
-import Header from "../components/Header";
-import Footer from "../components/Footer";
 
 const About = () => {
     return (
-        <div>
-          <Header/>
-
       <div className="container">
       <div className="row mt-2">
         <div className="col">
@@ -35,11 +29,6 @@ const About = () => {
        премодерацию, продолжительность которой зависит от популярности персоны или рейтинга фильма.
       </p>
        
-    </div>
-
-
-          
-      <Footer/>
     </div>
     );
 }

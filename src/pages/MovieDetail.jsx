@@ -1,7 +1,4 @@
 import React, { useState, useEffect } from "react";
-// --- импортируем части страниц
-import Header from "../components/Header";
-import Footer from "../components/Footer";
 
 import {
   fetchMovieDetail,
@@ -121,8 +118,7 @@ const MovieDetail = ({ match }) => {
   });
 
   return (
-    <div>
-    <Header/>
+
     <div className="container">
     <p style={{ color: "#939cad", fontSize: "2rem", fontWeight: "bolder" }}>О фильме</p>
 
@@ -221,8 +217,7 @@ const MovieDetail = ({ match }) => {
 
       
     </div>
-    <Footer/>
-    </div>
+
   );
 }
 export default MovieDetail;

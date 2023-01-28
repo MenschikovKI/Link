@@ -2,7 +2,6 @@ import React from "react";
 import {Link} from "react-router-dom";
 
 
-//import {Heart, Bag, Person, } from "react-bootstrap-icons";
 import {Container, Form} from "react-bootstrap";
 
 import logo from "../images/logo.png"
@@ -24,7 +23,7 @@ const Header = () => {
                 <Link to="/catalog" className="text-light text-decoration-none">Каталог</Link>
                 <Link to="/films" className="text-light text-decoration-none">Фильмы</Link>
                 <Link to="/serials" className="text-light text-decoration-none">Сериалы</Link>
-                <Link to="/toprating" className="text-light text-decoration-none">TOP 250</Link>
+                <Link to="/toprating" className="text-light text-decoration-none">TOП 250</Link>
                 <Link to="/favorites" className="text-light text-decoration-none">Избранное</Link>
                 <Link to="/about" className="text-light text-decoration-none">О нас</Link>
                 </nav>

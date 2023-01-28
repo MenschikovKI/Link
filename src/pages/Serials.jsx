@@ -1,15 +1,17 @@
 import React from "react";
 
-// --- импортируем компоненты страницы
-import Header from "../components/Header";
-import Footer from "../components/Footer";
-
 const Serials = () => {
   return (
-  <div>
-    <Header/>
-    <Footer/>
-  </div>
+    <div className="container">
+    {/* ============================================================================= */}
+    {/* Сериалы */}
+      <div className="row mt-5">
+        <div className="col">
+          <p className="font-weight-bold" style={{ color: "#939cad", fontSize: "2rem" }}>
+            Сериалы</p>
+        </div>
+      </div>
+    </div>
   );
 }
 

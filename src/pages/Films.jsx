@@ -1,15 +1,17 @@
 import React from "react";
 
-// --- импортируем компоненты страницы
-import Header from "../components/Header";
-import Footer from "../components/Footer";
-
 const Films = () => {
     return (
-    <div>
-      <Header/>
-      <Footer/>
-    </div>
+      <div className="container">
+      {/* ============================================================================= */}
+      {/* Фильмы */}
+        <div className="row mt-5">
+          <div className="col">
+            <p className="font-weight-bold" style={{ color: "#939cad", fontSize: "2rem" }}>
+              Фильмы</p>
+          </div>
+        </div>
+      </div>
     );
   }
   
